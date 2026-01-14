@@ -1,5 +1,9 @@
 package com.example.guessnumber.domain.domain.entity
 
-enum class Levels {
+import android.os.Parcelable
+import kotlinx.parcelize.Parcelize
+
+@Parcelize
+enum class Levels : Parcelable {
     TEST, EASY, NORMAL, HARD
 }
